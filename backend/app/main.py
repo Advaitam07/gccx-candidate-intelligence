@@ -3,21 +3,39 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 
-from backend.app.database import engine, Base
-from backend.app.models.candidate import CandidateModel, TagModel, RecruiterNoteModel, AiAnalysisModel
+from backend.app.database import engine, Base, SessionLocal
+from backend.app.models.candidate import CandidateModel
 from backend.app.routes.candidates import router as candidates_router
 from backend.app.routes.ai import router as ai_router
+from backend.seed import seed_database
 
 load_dotenv()
 
 # Initialize tables
 Base.metadata.create_all(bind=engine)
 
+
+def ensure_seeded_data():
+    db = SessionLocal()
+    try:
+        if db.query(CandidateModel).count() == 0:
+            seed_database()
+    finally:
+        db.close()
+
+
 app = FastAPI(
     title="GCCX Candidate Intelligence API",
     description="Backend REST API with SQLite persistence and Gemini LLM Candidate Triage",
     version="1.0.0",
 )
+
+ensure_seeded_data()
+
+
+@app.on_event("startup")
+def startup_seed():
+    ensure_seeded_data()
 
 # Configure CORS
 origins_env = os.getenv("CORS_ORIGINS", "http://localhost:3000,http://localhost:5173,http://127.0.0.1:3000")

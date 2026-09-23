@@ -82,9 +82,11 @@ class ApiClient {
   private baseUrl: string;
 
   constructor() {
-    // In browser, relative URLs like /api/v1/... go through Vite's proxy directly to FastAPI
-    this.baseUrl = '';
-  }
+  // Use Render backend in production; keep relative URLs for local Vite development.
+  this.baseUrl = import.meta.env.PROD
+    ? 'https://gccx-candidate-intelligence.onrender.com'
+    : '';
+}
 
   private async request<T>(endpoint: string, options?: RequestInit): Promise<T> {
     const url = `${this.baseUrl}${endpoint}`;

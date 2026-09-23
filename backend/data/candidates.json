@@ -1,0 +1,482 @@
+[
+  {
+    "id": "rahul-sharma",
+    "name": "Rahul Sharma",
+    "target_role": "Backend Engineer",
+    "years_experience": 3,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "AWS", "Docker", "PostgreSQL", "Redis"],
+    "notes": "Strong backend foundation. Probe system design depth and AWS multi-region failover handling on Friday. Compensation expectations aligned at $165k base.",
+    "applied_date": "2026-09-20T10:00:00Z"
+  },
+  {
+    "id": "elena-rostova",
+    "name": "Elena Rostova",
+    "target_role": "Senior Distributed Backend",
+    "years_experience": 5,
+    "source": "Referral",
+    "skills": ["Go", "Python", "Kubernetes", "Kafka", "AWS", "gRPC"],
+    "notes": "Referral from Staff Lead Viktor. Excellent culture fit, solid distributed system track record.",
+    "applied_date": "2026-09-18T14:20:00Z"
+  },
+  {
+    "id": "marcus-chen",
+    "name": "Marcus Chen",
+    "target_role": "Backend & Data Platform",
+    "years_experience": 4,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "Spark", "PostgreSQL", "AWS", "Redis"],
+    "notes": "Needs confirmation on whether 60-day notice can be bought out or negotiated down.",
+    "applied_date": "2026-09-19T09:12:00Z"
+  },
+  {
+    "id": "priya-patel",
+    "name": "Priya Patel",
+    "target_role": "Python API Specialist",
+    "years_experience": 3,
+    "source": "Direct Application",
+    "skills": ["Python", "FastAPI", "Django", "AWS", "Docker", "PyTest"],
+    "notes": "Outstanding technical portfolio. Prefers remote async collaboration.",
+    "applied_date": "2026-09-17T08:00:00Z"
+  },
+  {
+    "id": "david-kim",
+    "name": "David Kim",
+    "target_role": "Backend Infrastructure",
+    "years_experience": 4,
+    "source": "Referral",
+    "skills": ["Python", "Terraform", "AWS", "Docker", "Linux", "Go"],
+    "notes": "Might be an even stronger candidate for the DevOps / Platform Engineering req.",
+    "applied_date": "2026-09-21T13:45:00Z"
+  },
+  {
+    "id": "sarah-jenkins",
+    "name": "Sarah Jenkins",
+    "target_role": "Backend Engineer",
+    "years_experience": 3,
+    "source": "LinkedIn",
+    "skills": ["Python", "Django", "GCP", "PostgreSQL", "Git"],
+    "notes": "Good candidate for mid-tier growth roles.",
+    "applied_date": "2026-09-22T15:10:00Z"
+  },
+  {
+    "id": "liam-oconnor",
+    "name": "Liam O'Connor",
+    "target_role": "Staff Core Systems",
+    "years_experience": 8,
+    "source": "Referral",
+    "skills": ["Go", "C++", "Python", "AWS", "Distributed Systems", "Architecture"],
+    "notes": "Executive conversation needed to discuss Staff/Principal level alignment.",
+    "applied_date": "2026-09-15T11:00:00Z"
+  },
+  {
+    "id": "fatima-al-zahra",
+    "name": "Fatima Al-Zahra",
+    "target_role": "Backend Services Engineer",
+    "years_experience": 4,
+    "source": "Direct Application",
+    "skills": ["Python", "FastAPI", "Docker", "Redis", "Microservices"],
+    "notes": "Solid communicator, strong async Python experience.",
+    "applied_date": "2026-09-20T16:00:00Z"
+  },
+  {
+    "id": "alex-vance",
+    "name": "Alexander Vance",
+    "target_role": "DevOps / Platform",
+    "years_experience": 6,
+    "source": "Referral",
+    "skills": ["Kubernetes", "Terraform", "AWS", "Go", "ArgoCD", "Prometheus"],
+    "notes": "Strong alignment with our platform team roadmap.",
+    "applied_date": "2026-09-16T12:00:00Z"
+  },
+  {
+    "id": "chloe-dupont",
+    "name": "Chloe Dupont",
+    "target_role": "Backend Engineer",
+    "years_experience": 4,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "GCP"],
+    "notes": "Good candidate for the core commerce team.",
+    "applied_date": "2026-09-22T08:00:00Z"
+  },
+  {
+    "id": "kenji-sato",
+    "name": "Kenji Sato",
+    "target_role": "Full Stack",
+    "years_experience": 5,
+    "source": "Agency",
+    "skills": ["TypeScript", "React", "Node.js", "Python", "AWS", "GraphQL"],
+    "notes": "Very flexible across stack boundaries.",
+    "applied_date": "2026-09-17T09:30:00Z"
+  },
+  {
+    "id": "maya-angelova",
+    "name": "Maya Angelova",
+    "target_role": "Frontend Engineer",
+    "years_experience": 4,
+    "source": "Direct Application",
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js", "Performance Optimization"],
+    "notes": "Portfolio has exceptional UI craft and attention to detail.",
+    "applied_date": "2026-09-18T10:00:00Z"
+  },
+  {
+    "id": "oliver-schmidt",
+    "name": "Oliver Schmidt",
+    "target_role": "Backend Engineer",
+    "years_experience": 2,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker"],
+    "notes": "High potential for junior-to-mid career progression.",
+    "applied_date": "2026-09-23T01:00:00Z"
+  },
+  {
+    "id": "ananya-iyer",
+    "name": "Ananya Iyer",
+    "target_role": "Backend Engineer",
+    "years_experience": 5,
+    "source": "Referral",
+    "skills": ["Python", "FastAPI", "AWS", "DynamoDB", "Microservices", "Kafka"],
+    "notes": "Referred by tech lead. Highly recommended for production stability work.",
+    "applied_date": "2026-09-19T07:15:00Z"
+  },
+  {
+    "id": "carlos-mendez",
+    "name": "Carlos Mendez",
+    "target_role": "DevOps / Platform",
+    "years_experience": 7,
+    "source": "Direct Application",
+    "skills": ["AWS", "Terraform", "Kubernetes", "Docker", "Python", "CI/CD"],
+    "notes": "Strong profile for AWS infrastructure migration.",
+    "applied_date": "2026-09-20T11:00:00Z"
+  },
+  {
+    "id": "jordan-hayes",
+    "name": "Jordan Hayes",
+    "target_role": "Backend Engineer",
+    "years_experience": 4,
+    "source": "Agency",
+    "skills": ["Python", "Flask", "PostgreSQL", "AWS", "Docker"],
+    "notes": "Compensation expectations somewhat high compared to rubric.",
+    "applied_date": "2026-09-14T09:00:00Z"
+  },
+  {
+    "id": "zainab-hassan",
+    "name": "Zainab Hassan",
+    "target_role": "Backend Engineer",
+    "years_experience": 4,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "AWS", "Redis"],
+    "notes": "Applied for Backend Engineer opening. Solid async microservices experience.",
+    "applied_date": "2026-09-19T14:00:00Z"
+  },
+  {
+    "id": "tariq-al-mansoor",
+    "name": "Tariq Al-Mansoor",
+    "target_role": "Senior Distributed Backend",
+    "years_experience": 6,
+    "source": "Referral",
+    "skills": ["Go", "Kafka", "Kubernetes", "gRPC", "Docker"],
+    "notes": "Referred by engineering team. Strong distributed streaming background.",
+    "applied_date": "2026-09-18T16:30:00Z"
+  },
+  {
+    "id": "dmitri-ivanov",
+    "name": "Dmitri Ivanov",
+    "target_role": "Backend & Data Platform",
+    "years_experience": 5,
+    "source": "Direct Application",
+    "skills": ["Python", "Spark", "PostgreSQL", "AWS", "Airflow"],
+    "notes": "Experienced with heavy batch and streaming ETL pipelines.",
+    "applied_date": "2026-09-20T08:15:00Z"
+  },
+  {
+    "id": "sven-lindqvist",
+    "name": "Sven Lindqvist",
+    "target_role": "Python API Specialist",
+    "years_experience": 3,
+    "source": "Agency",
+    "skills": ["Python", "FastAPI", "Docker", "PyTest", "SQLAlchemy"],
+    "notes": "Presented by agency partner. Strong code sample submitted.",
+    "applied_date": "2026-09-21T11:00:00Z"
+  },
+  {
+    "id": "amara-okafor",
+    "name": "Amara Okafor",
+    "target_role": "Backend Infrastructure",
+    "years_experience": 4,
+    "source": "LinkedIn",
+    "skills": ["Python", "Terraform", "AWS", "Docker", "PostgreSQL"],
+    "notes": "Infrastructure as code specialist with strong backend software development background.",
+    "applied_date": "2026-09-22T13:20:00Z"
+  },
+  {
+    "id": "leo-takahashi",
+    "name": "Leo Takahashi",
+    "target_role": "Staff Core Systems",
+    "years_experience": 7,
+    "source": "Referral",
+    "skills": ["Go", "C++", "Distributed Systems", "Kubernetes", "AWS"],
+    "notes": "Staff-level prospect. Extensive experience in low latency caching and core infrastructure.",
+    "applied_date": "2026-09-16T15:45:00Z"
+  },
+  {
+    "id": "isabella-rossi",
+    "name": "Isabella Rossi",
+    "target_role": "DevOps / Platform",
+    "years_experience": 5,
+    "source": "Direct Application",
+    "skills": ["Kubernetes", "Docker", "AWS", "CI/CD", "Terraform", "Prometheus"],
+    "notes": "Solid cloud reliability and observability experience.",
+    "applied_date": "2026-09-19T10:30:00Z"
+  },
+  {
+    "id": "hassan-kabbani",
+    "name": "Hassan Kabbani",
+    "target_role": "Full Stack",
+    "years_experience": 4,
+    "source": "LinkedIn",
+    "skills": ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL"],
+    "notes": "Full stack engineer with balanced frontend and backend capabilities.",
+    "applied_date": "2026-09-21T09:00:00Z"
+  },
+  {
+    "id": "yuki-tanaka",
+    "name": "Yuki Tanaka",
+    "target_role": "Frontend Engineer",
+    "years_experience": 3,
+    "source": "Agency",
+    "skills": ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    "notes": "Strong responsive UI portfolio with high design sensitivity.",
+    "applied_date": "2026-09-22T14:15:00Z"
+  },
+  {
+    "id": "nadia-benali",
+    "name": "Nadia Benali",
+    "target_role": "Backend Engineer",
+    "years_experience": 3,
+    "source": "Direct Application",
+    "skills": ["Python", "FastAPI", "Docker", "PostgreSQL"],
+    "notes": "Solid junior-to-mid developer with clean API contract implementations.",
+    "applied_date": "2026-09-23T02:30:00Z"
+  },
+  {
+    "id": "gabriel-santos",
+    "name": "Gabriel Santos",
+    "target_role": "Senior Distributed Backend",
+    "years_experience": 6,
+    "source": "Referral",
+    "skills": ["Go", "Python", "Kafka", "Kubernetes", "AWS"],
+    "notes": "Referred by lead architect. High technical evaluation score.",
+    "applied_date": "2026-09-17T17:00:00Z"
+  },
+  {
+    "id": "freja-moller",
+    "name": "Freja Møller",
+    "target_role": "Backend & Data Platform",
+    "years_experience": 4,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "Spark", "Redis", "AWS"],
+    "notes": "Active contributor to open-source data analytics libraries.",
+    "applied_date": "2026-09-20T12:00:00Z"
+  },
+  {
+    "id": "wei-zhang",
+    "name": "Wei Zhang",
+    "target_role": "Python API Specialist",
+    "years_experience": 5,
+    "source": "Direct Application",
+    "skills": ["Python", "FastAPI", "Docker", "PyTest", "PostgreSQL", "AWS"],
+    "notes": "Very thorough testing practices and high coverage standards.",
+    "applied_date": "2026-09-18T11:20:00Z"
+  },
+  {
+    "id": "mei-ling",
+    "name": "Mei Ling",
+    "target_role": "Backend Infrastructure",
+    "years_experience": 4,
+    "source": "Agency",
+    "skills": ["Python", "Terraform", "AWS", "Linux", "Docker"],
+    "notes": "Experienced in setting up automated cloud provisioning environments.",
+    "applied_date": "2026-09-21T16:10:00Z"
+  },
+  {
+    "id": "kwame-mensah",
+    "name": "Kwame Mensah",
+    "target_role": "Staff Core Systems",
+    "years_experience": 8,
+    "source": "Referral",
+    "skills": ["Go", "Distributed Systems", "C++", "AWS", "Architecture"],
+    "notes": "Principal track candidate. Outstanding distributed algorithms knowledge.",
+    "applied_date": "2026-09-15T09:40:00Z"
+  },
+  {
+    "id": "siddharth-rao",
+    "name": "Siddharth Rao",
+    "target_role": "DevOps / Platform",
+    "years_experience": 6,
+    "source": "LinkedIn",
+    "skills": ["AWS", "Kubernetes", "Terraform", "Docker", "CI/CD", "Go"],
+    "notes": "Platform architect with multi-cloud and Kubernetes operator experience.",
+    "applied_date": "2026-09-19T13:50:00Z"
+  },
+  {
+    "id": "beatriz-silva",
+    "name": "Beatriz Silva",
+    "target_role": "Full Stack",
+    "years_experience": 4,
+    "source": "Direct Application",
+    "skills": ["TypeScript", "React", "Node.js", "Python", "PostgreSQL"],
+    "notes": "Full stack engineer with rich web platform development experience.",
+    "applied_date": "2026-09-20T18:00:00Z"
+  },
+  {
+    "id": "lucas-moreau",
+    "name": "Lucas Moreau",
+    "target_role": "Frontend Engineer",
+    "years_experience": 5,
+    "source": "LinkedIn",
+    "skills": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Redux"],
+    "notes": "Solid experience scaling frontend applications across enterprise portals.",
+    "applied_date": "2026-09-17T14:30:00Z"
+  },
+  {
+    "id": "amina-idris",
+    "name": "Amina Idris",
+    "target_role": "Backend Engineer",
+    "years_experience": 3,
+    "source": "Referral",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "Redis"],
+    "notes": "Referred by teammate. Strong problem solving speed and clean async Python.",
+    "applied_date": "2026-09-22T10:15:00Z"
+  },
+  {
+    "id": "tomasz-nowak",
+    "name": "Tomasz Nowak",
+    "target_role": "Senior Distributed Backend",
+    "years_experience": 7,
+    "source": "Agency",
+    "skills": ["Go", "Kubernetes", "Kafka", "AWS", "gRPC", "Docker"],
+    "notes": "Deep background in high scale financial messaging systems.",
+    "applied_date": "2026-09-16T16:00:00Z"
+  },
+  {
+    "id": "johan-bergman",
+    "name": "Johan Bergman",
+    "target_role": "Backend & Data Platform",
+    "years_experience": 4,
+    "source": "Direct Application",
+    "skills": ["Python", "Spark", "FastAPI", "PostgreSQL", "AWS"],
+    "notes": "Data pipeline builder with strong database schema design acumen.",
+    "applied_date": "2026-09-21T08:45:00Z"
+  },
+  {
+    "id": "ingrid-olsen",
+    "name": "Ingrid Olsen",
+    "target_role": "Python API Specialist",
+    "years_experience": 3,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "AWS", "Docker", "PyTest"],
+    "notes": "API specialist with emphasis on microservices security and contract testing.",
+    "applied_date": "2026-09-22T12:00:00Z"
+  },
+  {
+    "id": "farhan-qureshi",
+    "name": "Farhan Qureshi",
+    "target_role": "Backend Infrastructure",
+    "years_experience": 5,
+    "source": "Referral",
+    "skills": ["Python", "Terraform", "AWS", "Docker", "Linux"],
+    "notes": "Demonstrated expertise automating cloud infrastructure and CI/CD pipelines.",
+    "applied_date": "2026-09-18T09:10:00Z"
+  },
+  {
+    "id": "chiara-bianchi",
+    "name": "Chiara Bianchi",
+    "target_role": "Staff Core Systems",
+    "years_experience": 9,
+    "source": "Direct Application",
+    "skills": ["Go", "C++", "Distributed Systems", "AWS", "Architecture"],
+    "notes": "Exceptional system design experience across large scale distributed storage systems.",
+    "applied_date": "2026-09-14T11:30:00Z"
+  },
+  {
+    "id": "aditya-deshmukh",
+    "name": "Aditya Deshmukh",
+    "target_role": "DevOps / Platform",
+    "years_experience": 5,
+    "source": "Agency",
+    "skills": ["Kubernetes", "AWS", "Terraform", "Docker", "Prometheus", "CI/CD"],
+    "notes": "Platform engineer with comprehensive container orchestration skills.",
+    "applied_date": "2026-09-20T15:20:00Z"
+  },
+  {
+    "id": "natasha-roman",
+    "name": "Natasha Roman",
+    "target_role": "Full Stack",
+    "years_experience": 4,
+    "source": "LinkedIn",
+    "skills": ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "AWS"],
+    "notes": "Clean full stack portfolio with modern async API backends and typed frontends.",
+    "applied_date": "2026-09-19T17:40:00Z"
+  },
+  {
+    "id": "julian-ward",
+    "name": "Julian Ward",
+    "target_role": "Frontend Engineer",
+    "years_experience": 4,
+    "source": "Direct Application",
+    "skills": ["React", "TypeScript", "Tailwind CSS", "Next.js", "Jest"],
+    "notes": "Detail-oriented frontend engineer with strong accessibility focus.",
+    "applied_date": "2026-09-21T14:50:00Z"
+  },
+  {
+    "id": "hannah-miller",
+    "name": "Hannah Miller",
+    "target_role": "Backend Engineer",
+    "years_experience": 3,
+    "source": "LinkedIn",
+    "skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "AWS"],
+    "notes": "Strong grasp of REST standards and relational database optimization.",
+    "applied_date": "2026-09-22T16:30:00Z"
+  },
+  {
+    "id": "emir-kaya",
+    "name": "Emir Kaya",
+    "target_role": "Senior Distributed Backend",
+    "years_experience": 6,
+    "source": "Referral",
+    "skills": ["Go", "Kafka", "Kubernetes", "Docker", "gRPC", "AWS"],
+    "notes": "Referred by senior director. High throughput event streaming experience.",
+    "applied_date": "2026-09-17T13:10:00Z"
+  },
+  {
+    "id": "samira-nour",
+    "name": "Samira Nour",
+    "target_role": "Backend & Data Platform",
+    "years_experience": 4,
+    "source": "Direct Application",
+    "skills": ["Python", "Spark", "PostgreSQL", "FastAPI", "Docker"],
+    "notes": "Data platform software engineer with strong analytical problem solving abilities.",
+    "applied_date": "2026-09-21T10:00:00Z"
+  },
+  {
+    "id": "devin-brooks",
+    "name": "Devin Brooks",
+    "target_role": "Python API Specialist",
+    "years_experience": 4,
+    "source": "Agency",
+    "skills": ["Python", "FastAPI", "Docker", "PyTest", "AWS", "Redis"],
+    "notes": "Specializes in high performance Python APIs and cache synchronization.",
+    "applied_date": "2026-09-20T19:15:00Z"
+  },
+  {
+    "id": "chloe-lefebvre",
+    "name": "Chloe Lefebvre",
+    "target_role": "Backend Infrastructure",
+    "years_experience": 5,
+    "source": "LinkedIn",
+    "skills": ["Python", "Terraform", "AWS", "Docker", "Kubernetes"],
+    "notes": "Cloud infrastructure engineer with high velocity deployment automation track record.",
+    "applied_date": "2026-09-22T09:00:00Z"
+  }
+]

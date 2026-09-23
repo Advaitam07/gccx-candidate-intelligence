@@ -1,0 +1,6 @@
+{
+  "name": "GCCX Candidate Intelligence",
+  "description": "AI-assisted recruiter candidate triage platform for modern recruiting and rubric-backed hiring decisions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

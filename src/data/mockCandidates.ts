@@ -1,0 +1,887 @@
+import { Candidate } from '../types/candidate';
+
+export const INITIAL_CANDIDATES: Candidate[] = [
+  {
+    id: 'rahul-sharma',
+    codeId: '#GCCX-8841',
+    name: 'Rahul Sharma',
+    initials: 'RS',
+    targetRole: 'Backend Engineer',
+    yearsExperience: 3,
+    location: 'Bengaluru, IN',
+    availability: 'Available in 30d',
+    source: 'LinkedIn',
+    skills: ['Python 3.11', 'FastAPI', 'AWS ECS', 'Docker', 'PostgreSQL', 'Redis'],
+    summary:
+      'Strong backend fit with high-velocity Python & FastAPI production experience. Demonstrates clean AWS architecture track record with microservices handling 12,000+ RPS.',
+    notes:
+      'Strong backend foundation. Probe system design depth and AWS multi-region failover handling on Friday. Compensation expectations aligned at $165k base.',
+    tags: ['Python', 'FastAPI', 'AWS', 'High Velocity'],
+    shortlisted: false,
+    reviewStatus: 'IN_REVIEW',
+    aiFit: 96,
+    aiSummary:
+      'Strong backend fit with high-velocity Python & FastAPI production experience. Demonstrates clean AWS architecture track record with microservices handling 12,000+ RPS.',
+    matchingSkills: ['Python 3.11', 'FastAPI', 'AWS ECS', 'Docker', 'PostgreSQL'],
+    missingSkills: ['Kubernetes cluster ops', 'Monorepo build tooling'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-20T10:00:00Z',
+    updatedAt: '2026-09-23T08:30:00Z',
+    strengths: [
+      'Python 3.11 & Async FastAPI: Authored low-latency async endpoints with 99.98% uptime SLA.',
+      'Cloud Infrastructure: Direct ownership of AWS stack (ECS Fargate, RDS PostgreSQL, IAM, S3).',
+      'CI/CD & Reliability: Docker containerization with GitHub Actions automated deployment pipelines.',
+    ],
+    gaps: [
+      'Kubernetes: ECS heavy; limited evidence of high-density Kubernetes cluster operations.',
+      'Monorepo Tooling: Experience primarily with polyrepo setups; verify build tooling breadth.',
+    ],
+    suggestedAction:
+      'Schedule 45-min Technical System Screening focusing on distributed database caching, API latency spikes, and async worker queuing.',
+    workHistory: [
+      {
+        id: 'wh-1',
+        title: 'Senior Backend Software Engineer',
+        company: 'Apex FinTech Scaleup',
+        period: '2022 — Present (2 yrs)',
+        description:
+          'Spearheaded Python microservices re-architecture reducing latency from 220ms to 45ms. Integrated payment ledger with AWS RDS & DynamoDB.',
+      },
+      {
+        id: 'wh-2',
+        title: 'Backend Software Engineer',
+        company: 'Starlight Cloud Systems',
+        period: '2021 — 2022 (1 yr)',
+        description:
+          'Built REST & WebSocket APIs using FastAPI and Celery worker pools. Maintained internal telemetry and alert monitors.',
+      },
+    ],
+    notesList: [
+      {
+        id: 'note-1',
+        author: 'Marcus Vance',
+        authorRole: 'Principal Recruiter',
+        date: 'Today, 10:24 AM',
+        text: 'Strong backend foundation. Probe system design depth and AWS multi-region failover handling on Friday. Compensation expectations aligned at $165k base.',
+      },
+    ],
+    auditTrail: [
+      { id: 'aud-1', action: 'Profile indexed via LinkedIn Sourcing', time: '2 days ago' },
+      { id: 'aud-2', action: 'AI Pipeline scored candidate at 96% Match', time: 'Yesterday' },
+      { id: 'aud-3', action: 'Assigned to Marcus Vance for Priority Review', time: '5 hrs ago' },
+    ],
+  },
+  {
+    id: 'elena-rostova',
+    codeId: '#GCCX-7712',
+    name: 'Elena Rostova',
+    initials: 'ER',
+    targetRole: 'Senior Distributed Backend',
+    yearsExperience: 5,
+    location: 'Prague, CZ',
+    availability: 'Immediate',
+    source: 'Referral',
+    skills: ['Go', 'Python', 'Kubernetes', 'Kafka', 'AWS', 'gRPC'],
+    summary:
+      'Exceptional distributed systems background combining Go and Python. Extensive hands-on experience scaling real-time message streaming through Apache Kafka.',
+    notes: 'Referral from Staff Lead Viktor. Excellent culture fit, solid distributed system track record.',
+    tags: ['Go', 'Distributed Systems', 'Kafka', 'Referral'],
+    shortlisted: true,
+    reviewStatus: 'SHORTLISTED',
+    aiFit: 92,
+    aiSummary:
+      'Exceptional distributed systems background combining Go and Python. Extensive hands-on experience scaling real-time message streaming through Apache Kafka.',
+    matchingSkills: ['Go', 'Python', 'Kafka', 'AWS', 'Kubernetes'],
+    missingSkills: ['FastAPI Framework', 'US Eastern timezone alignment'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-18T14:20:00Z',
+    updatedAt: '2026-09-22T11:15:00Z',
+    strengths: [
+      'Distributed Systems: Scaled event-driven streaming clusters handling 2M msgs/sec.',
+      'Go & Python: Strong dual-language production capability across both stacks.',
+      'Kubernetes Certified: Deep production k8s operator writing and Helm charts.',
+    ],
+    gaps: [
+      'FastAPI Framework: Mostly worked with Django and gRPC services rather than pure FastAPI.',
+      'Timezone Overlap: Central European timezone (3 hr overlap with US East).',
+    ],
+    suggestedAction:
+      'Fast-track to Principal Architect interview focusing on event stream topologies.',
+    workHistory: [
+      {
+        id: 'wh-3',
+        title: 'Lead Distributed Systems Engineer',
+        company: 'Veloce Data Engine',
+        period: '2021 — Present (3 yrs)',
+        description:
+          'Architected high-throughput ingestion platform on Kafka & Kubernetes processing 15TB daily stream data.',
+      },
+      {
+        id: 'wh-4',
+        title: 'Software Engineer',
+        company: 'Nordic Cloud Labs',
+        period: '2019 — 2021 (2 yrs)',
+        description:
+          'Constructed microservices in Go and Python for distributed task scheduling and cluster metrics collection.',
+      },
+    ],
+    notesList: [
+      {
+        id: 'note-2',
+        author: 'Marcus Vance',
+        authorRole: 'Principal Recruiter',
+        date: 'Sep 22, 2:40 PM',
+        text: 'Elena confirmed ready to interview immediately. High motivation for high-concurrency architecture problems.',
+      },
+    ],
+    auditTrail: [
+      { id: 'aud-4', action: 'Direct referral submitted by Viktor S.', time: '5 days ago' },
+      { id: 'aud-5', action: 'Automated match score computed (92%)', time: '4 days ago' },
+      { id: 'aud-6', action: 'Moved to Shortlist by Marcus Vance', time: '1 day ago' },
+    ],
+  },
+  {
+    id: 'marcus-chen',
+    codeId: '#GCCX-6504',
+    name: 'Marcus Chen',
+    initials: 'MC',
+    targetRole: 'Backend & Data Platform',
+    yearsExperience: 4,
+    location: 'Singapore',
+    availability: '60d Notice',
+    source: 'LinkedIn',
+    skills: ['Python', 'FastAPI', 'Spark', 'PostgreSQL', 'AWS', 'Redis'],
+    summary:
+      'Solid dual capability spanning backend microservices and data pipelines with Apache Spark. High proficiency in relational schema optimization.',
+    notes: 'Needs confirmation on whether 60-day notice can be bought out or negotiated down.',
+    tags: ['Python', 'FastAPI', 'Data Pipelines', 'PostgreSQL'],
+    shortlisted: false,
+    reviewStatus: 'IN_REVIEW',
+    aiFit: 88,
+    aiSummary:
+      'Solid dual capability spanning backend microservices and data pipelines with Apache Spark. High proficiency in relational schema optimization.',
+    matchingSkills: ['Python', 'FastAPI', 'PostgreSQL', 'Redis'],
+    missingSkills: ['Terraform IaC', 'Immediate start'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-19T09:12:00Z',
+    updatedAt: '2026-09-21T16:00:00Z',
+    strengths: [
+      'Data Heavy Pipelines: ETL pipeline architecture with Spark and Python Celery.',
+      'Database Tuning: PostgreSQL query optimization and caching strategies.',
+    ],
+    gaps: [
+      'Notice Period: Contractual 60-day notice requirement before joining.',
+      'AWS IaC: Limited Terraform usage compared to CloudFormation.',
+    ],
+    suggestedAction: 'Conduct exploratory recruiter phone screen to assess notice flexibility.',
+    workHistory: [
+      {
+        id: 'wh-5',
+        title: 'Senior Data Platform Engineer',
+        company: 'Quantum Logistics',
+        period: '2022 — Present (2 yrs)',
+        description:
+          'Built ETL pipelines servicing 40+ analytics consumers, refactoring legacy batch jobs into near real-time pipelines.',
+      },
+    ],
+    notesList: [
+      {
+        id: 'note-3',
+        author: 'Sarah Lin',
+        authorRole: 'Technical Recruiter',
+        date: 'Sep 21, 10:00 AM',
+        text: 'Checked GitHub repo: clean commit discipline and comprehensive unit test coverage.',
+      },
+    ],
+    auditTrail: [
+      { id: 'aud-7', action: 'Inbound sourced via LinkedIn Recruiter', time: '4 days ago' },
+      { id: 'aud-8', action: 'AI Fit evaluated (88% Viable)', time: '3 days ago' },
+    ],
+  },
+  {
+    id: 'priya-patel',
+    codeId: '#GCCX-9932',
+    name: 'Priya Patel',
+    initials: 'PP',
+    targetRole: 'Python API Specialist',
+    yearsExperience: 3,
+    location: 'London, UK',
+    availability: 'Remote Only',
+    source: 'Direct Application',
+    skills: ['Python 3.11', 'FastAPI', 'Django', 'AWS', 'Docker', 'PyTest'],
+    summary:
+      'High-velocity API designer with flawless testing track record. Deep Python typing and Pydantic v2 expertise aligned with clean architectural design.',
+    notes: 'Outstanding technical portfolio. Prefers remote async collaboration.',
+    tags: ['Python', 'API Design', 'Pydantic', 'Testing Champion'],
+    shortlisted: true,
+    reviewStatus: 'SHORTLISTED',
+    aiFit: 91,
+    aiSummary:
+      'High-velocity API designer with flawless testing track record. Deep Python typing and Pydantic v2 expertise aligned with clean architectural design.',
+    matchingSkills: ['Python 3.11', 'FastAPI', 'AWS', 'Docker'],
+    missingSkills: ['Advanced cloud networking (VPC peering, NAT routing)'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-17T08:00:00Z',
+    updatedAt: '2026-09-22T09:40:00Z',
+    strengths: [
+      'Modern Python Patterns: Pydantic v2, typing discipline, 94% test suite coverage.',
+      'Clean Architecture: Domain-driven design implementation in microservices.',
+    ],
+    gaps: ['Infra Automation: Works alongside DevOps teams rather than self-managing AWS networking.'],
+    suggestedAction: 'Schedule technical live coding session testing API contract designs.',
+    workHistory: [
+      {
+        id: 'wh-6',
+        title: 'Backend Engineer',
+        company: 'FinStack UK',
+        period: '2021 — Present (3 yrs)',
+        description:
+          'Engineered open banking integration gateways in Python & FastAPI with stringent SLA standards.',
+      },
+    ],
+    notesList: [
+      {
+        id: 'note-4',
+        author: 'Marcus Vance',
+        authorRole: 'Principal Recruiter',
+        date: 'Sep 22, 11:10 AM',
+        text: 'Priya received top rating on take-home evaluation. Recommending interview with Staff Architect.',
+      },
+    ],
+    auditTrail: [
+      { id: 'aud-9', action: 'Applied directly via careers portal', time: '6 days ago' },
+      { id: 'aud-10', action: 'Shortlisted by Hiring Manager', time: '1 day ago' },
+    ],
+  },
+  {
+    id: 'david-kim',
+    codeId: '#GCCX-4410',
+    name: 'David Kim',
+    initials: 'DK',
+    targetRole: 'Backend Infrastructure',
+    yearsExperience: 4,
+    location: 'Austin, TX',
+    availability: 'Hybrid',
+    source: 'Referral',
+    skills: ['Python', 'Terraform', 'AWS', 'Docker', 'Linux', 'Go'],
+    summary:
+      'Infrastructure-leaning backend software engineer with substantial Terraform automation skills and AWS provisioning history.',
+    notes: 'Might be an even stronger candidate for the DevOps / Platform Engineering req.',
+    tags: ['Terraform', 'AWS', 'Platform', 'Go'],
+    shortlisted: false,
+    reviewStatus: 'IN_REVIEW',
+    aiFit: 85,
+    aiSummary:
+      'Infrastructure-leaning backend software engineer with substantial Terraform automation skills and AWS provisioning history.',
+    matchingSkills: ['AWS', 'Docker', 'Python', 'Go'],
+    missingSkills: ['Pure application business logic depth'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-21T13:45:00Z',
+    updatedAt: '2026-09-22T17:00:00Z',
+    strengths: [
+      'Terraform & IaC: Modular infrastructure-as-code production experience.',
+      'Container Orchestration: Docker security scanning and image minification.',
+    ],
+    gaps: ['Framework Depth: More infrastructure operations than pure application API logic.'],
+    suggestedAction: 'Pair with Platform Lead to assess fit for Platform/DevOps track instead.',
+    workHistory: [
+      {
+        id: 'wh-7',
+        title: 'Platform Software Engineer',
+        company: 'CloudPulse Networks',
+        period: '2022 — Present (2 yrs)',
+        description:
+          'Created self-serve developer deployment tooling using Terraform AWS modules and Python CLI.',
+      },
+    ],
+    notesList: [
+      {
+        id: 'note-5',
+        author: 'Marcus Vance',
+        authorRole: 'Principal Recruiter',
+        date: 'Sep 22, 5:00 PM',
+        text: 'Follow up with DevSecOps team lead regarding crossover role.',
+      },
+    ],
+    auditTrail: [
+      { id: 'aud-11', action: 'Referred by Staff Infrastructure Architect', time: '2 days ago' },
+      { id: 'aud-12', action: 'Tagged for cross-team review', time: '1 day ago' },
+    ],
+  },
+  {
+    id: 'sarah-jenkins',
+    codeId: '#GCCX-3211',
+    name: 'Sarah Jenkins',
+    initials: 'SJ',
+    targetRole: 'Backend Software Engineer',
+    yearsExperience: 3,
+    location: 'Toronto, CA',
+    availability: 'Available 15d',
+    source: 'LinkedIn',
+    skills: ['Python', 'Django', 'GCP', 'PostgreSQL', 'Git'],
+    summary:
+      'Promising junior-mid backend engineer with strong web application fundamentals, primarily in Django and relational schemas.',
+    notes: 'Good candidate for mid-tier growth roles.',
+    tags: ['Python', 'Django', 'PostgreSQL'],
+    shortlisted: false,
+    reviewStatus: 'NEEDS_REVIEW',
+    aiFit: 79,
+    aiSummary:
+      'Promising junior-mid backend engineer with strong web application fundamentals, primarily in Django and relational schemas.',
+    matchingSkills: ['Python', 'PostgreSQL', 'Git'],
+    missingSkills: ['AWS experience (primarily GCP)', 'High throughput (>5,000 RPS)'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-22T15:10:00Z',
+    updatedAt: '2026-09-23T06:00:00Z',
+    strengths: [
+      'Database Modeling: Clean normalization and relational modeling.',
+      'Fast Learner: High GitHub contribution frequency and open-source contributions.',
+    ],
+    gaps: [
+      'AWS Breadth: Experience limited to Google Cloud Platform rather than AWS stack.',
+      'High Throughput: Has not operated at >5,000 RPS traffic scale.',
+    ],
+    suggestedAction: 'Keep on passive talent bench or screen for junior backend requisitions.',
+    workHistory: [
+      {
+        id: 'wh-8',
+        title: 'Backend Engineer',
+        company: 'MapleTech Solutions',
+        period: '2021 — 2024 (3 yrs)',
+        description:
+          'Maintained client database portals and REST services in Django with PostgreSQL and GCP Cloud Run.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [
+      { id: 'aud-13', action: 'Inbound resume submission via LinkedIn job post', time: '1 day ago' },
+      { id: 'aud-14', action: 'Placed in Needs Review queue', time: '20 hrs ago' },
+    ],
+  },
+  {
+    id: 'liam-oconnor',
+    codeId: '#GCCX-1099',
+    name: "Liam O'Connor",
+    initials: 'LO',
+    targetRole: 'Staff Core Systems',
+    yearsExperience: 8,
+    location: 'Dublin, IE',
+    availability: 'Hybrid',
+    source: 'Referral',
+    skills: ['Go', 'C++', 'Python', 'AWS', 'Distributed Systems', 'Architecture'],
+    summary:
+      'Staff-caliber engineering leader with deep systems experience in high-concurrency environments and distributed storage.',
+    notes: 'Executive conversation needed to discuss Staff/Principal level alignment.',
+    tags: ['Staff Level', 'Distributed Systems', 'Go', 'Architecture'],
+    shortlisted: true,
+    reviewStatus: 'SHORTLISTED',
+    aiFit: 95,
+    aiSummary:
+      'Staff-caliber engineering leader with deep systems experience in high-concurrency environments and distributed storage.',
+    matchingSkills: ['Distributed Systems', 'Go', 'AWS', 'Python', 'Architecture'],
+    missingSkills: ['Compensation band top 10% tolerance'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-15T11:00:00Z',
+    updatedAt: '2026-09-22T14:30:00Z',
+    strengths: [
+      'Concurrency & Performance: Expert in distributed locks and zero-downtime migrations.',
+      'Mentorship & Standards: Led architectural review committees for 40+ devs.',
+    ],
+    gaps: ['Compensation Band: Target compensation sits at top 10% of budgeted band.'],
+    suggestedAction: 'Executive briefing with VP Engineering to evaluate Staff title alignment.',
+    workHistory: [
+      {
+        id: 'wh-9',
+        title: 'Staff Systems Architect',
+        company: 'Apex Telemetry Global',
+        period: '2019 — Present (5 yrs)',
+        description:
+          'Designed high-speed ingestion system processing 50M records/min across multi-region clusters.',
+      },
+    ],
+    notesList: [
+      {
+        id: 'note-6',
+        author: 'Marcus Vance',
+        authorRole: 'Principal Recruiter',
+        date: 'Sep 21, 3:30 PM',
+        text: 'Liam is very impressed with our engineering roadmap. Ready for VP briefing.',
+      },
+    ],
+    auditTrail: [
+      { id: 'aud-15', action: 'Internal leadership nomination', time: '8 days ago' },
+      { id: 'aud-16', action: 'AI Fit calibrated at 95% (Top 5% Fit)', time: '7 days ago' },
+      { id: 'aud-17', action: 'Shortlisted by Hiring Committee', time: '2 days ago' },
+    ],
+  },
+  {
+    id: 'fatima-al-zahra',
+    codeId: '#GCCX-5621',
+    name: 'Fatima Al-Zahra',
+    initials: 'FA',
+    targetRole: 'Backend Services Engineer',
+    yearsExperience: 4,
+    location: 'Dubai, AE',
+    availability: 'Immediate',
+    source: 'Direct Application',
+    skills: ['Python', 'FastAPI', 'Docker', 'Redis', 'Microservices'],
+    summary:
+      'Reliable backend developer with strong FastAPI microservice deployment patterns and clean API contract authoring.',
+    notes: 'Solid communicator, strong async Python experience.',
+    tags: ['FastAPI', 'Microservices', 'Redis', 'Immediate'],
+    shortlisted: false,
+    reviewStatus: 'IN_REVIEW',
+    aiFit: 87,
+    aiSummary:
+      'Reliable backend developer with strong FastAPI microservice deployment patterns and clean API contract authoring.',
+    matchingSkills: ['Python', 'FastAPI', 'Docker', 'Redis'],
+    missingSkills: ['Cloud networking (VPC peering, subnet CIDR planning)'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-20T16:00:00Z',
+    updatedAt: '2026-09-23T02:00:00Z',
+    strengths: [
+      'Microservices Auth: OAuth2 and JWT implementations with Redis token stores.',
+      'Documentation: Rigorous OpenAPI / Swagger schema definitions.',
+    ],
+    gaps: ['Cloud Networking: Basic VPC peering and subnet understanding.'],
+    suggestedAction: 'Advance to 30-min recruiter screen to discuss team collaboration experience.',
+    workHistory: [
+      {
+        id: 'wh-10',
+        title: 'Backend Software Developer',
+        company: 'Sahara FinTech Hub',
+        period: '2022 — Present (2 yrs)',
+        description:
+          'Engineered authentication and user account microservices for mobile banking platform.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [
+      { id: 'aud-18', action: 'Applied through GCCX Job Portal', time: '3 days ago' },
+      { id: 'aud-19', action: 'Placed into In Review queue', time: '1 day ago' },
+    ],
+  },
+  // Additional candidates to populate full 56 pool across various roles and statuses
+  {
+    id: 'alex-vance',
+    codeId: '#GCCX-4912',
+    name: 'Alexander Vance',
+    initials: 'AV',
+    targetRole: 'DevOps / Platform',
+    yearsExperience: 6,
+    location: 'Berlin, DE',
+    availability: 'Available in 30d',
+    source: 'Referral',
+    skills: ['Kubernetes', 'Terraform', 'AWS', 'Go', 'ArgoCD', 'Prometheus'],
+    summary:
+      'Platform engineer specializing in GitOps automation, Kubernetes cluster hardening, and multi-region AWS infrastructure.',
+    notes: 'Strong alignment with our platform team roadmap.',
+    tags: ['Platform', 'Kubernetes', 'Terraform', 'GitOps'],
+    shortlisted: true,
+    reviewStatus: 'SHORTLISTED',
+    aiFit: 94,
+    aiSummary: 'Top-tier cloud platform expertise with extensive ArgoCD and AWS EKS production experience.',
+    matchingSkills: ['Kubernetes', 'Terraform', 'AWS', 'Go'],
+    missingSkills: ['Direct Python app dev'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-16T12:00:00Z',
+    updatedAt: '2026-09-22T10:00:00Z',
+    strengths: ['Hardened 100+ node EKS clusters with Istio service mesh.', 'Zero-downtime cluster upgrades.'],
+    gaps: ['Focus is purely infrastructure rather than backend services.'],
+    suggestedAction: 'Forward to Head of Infrastructure for final technical debrief.',
+    workHistory: [
+      {
+        id: 'wh-11',
+        title: 'Staff Platform Engineer',
+        company: 'KubeScale Enterprise',
+        period: '2021 — Present (3 yrs)',
+        description: 'Led cloud infrastructure team managing 8 multi-tenant clusters across 3 AWS regions.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-20', action: 'Added to shortlisting pool', time: '3 days ago' }],
+  },
+  {
+    id: 'chloe-dupont',
+    codeId: '#GCCX-3881',
+    name: 'Chloe Dupont',
+    initials: 'CD',
+    targetRole: 'Backend Engineer',
+    yearsExperience: 4,
+    location: 'Paris, FR',
+    availability: '30d Notice',
+    source: 'LinkedIn',
+    skills: ['Python', 'FastAPI', 'PostgreSQL', 'Docker', 'GCP'],
+    summary: 'Mid-level backend software engineer with e-commerce payment microservices experience.',
+    notes: 'Good candidate for the core commerce team.',
+    tags: ['Python', 'FastAPI', 'E-Commerce'],
+    shortlisted: false,
+    reviewStatus: 'NEEDS_REVIEW',
+    aiFit: 84,
+    aiSummary: 'Solid Python microservice track record with clean documentation and API standards.',
+    matchingSkills: ['Python', 'FastAPI', 'PostgreSQL', 'Docker'],
+    missingSkills: ['AWS infrastructure (uses GCP)'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-22T08:00:00Z',
+    updatedAt: '2026-09-23T04:00:00Z',
+    strengths: ['Extensive FastAPI endpoint tuning.', 'Solid SQL indexing knowledge.'],
+    gaps: ['Primarily GCP rather than AWS.'],
+    suggestedAction: 'Review resume portfolio for cloud transition readiness.',
+    workHistory: [
+      {
+        id: 'wh-12',
+        title: 'Software Developer',
+        company: 'Lumière Commerce',
+        period: '2022 — Present (2 yrs)',
+        description: 'Constructed order fulfillment APIs in Python with PostgreSQL and Redis queues.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-21', action: 'Indexed via LinkedIn', time: '1 day ago' }],
+  },
+  {
+    id: 'kenji-sato',
+    codeId: '#GCCX-9102',
+    name: 'Kenji Sato',
+    initials: 'KS',
+    targetRole: 'Full Stack',
+    yearsExperience: 5,
+    location: 'Tokyo, JP',
+    availability: 'Immediate',
+    source: 'Agency',
+    skills: ['TypeScript', 'React', 'Node.js', 'Python', 'AWS', 'GraphQL'],
+    summary:
+      'Versatile full stack developer proficient across modern React frontends and Node/Python backend microservices.',
+    notes: 'Very flexible across stack boundaries.',
+    tags: ['Full Stack', 'React', 'Python', 'GraphQL'],
+    shortlisted: true,
+    reviewStatus: 'SHORTLISTED',
+    aiFit: 90,
+    aiSummary: 'Well-rounded engineer capable of delivering end-to-end features from database to React UI.',
+    matchingSkills: ['Python', 'AWS', 'React', 'GraphQL'],
+    missingSkills: ['Deep distributed systems performance tuning'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-17T09:30:00Z',
+    updatedAt: '2026-09-21T18:00:00Z',
+    strengths: ['Built full enterprise dashboard with real-time WebSockets.', 'Fluent in both TypeScript and Python.'],
+    gaps: ['Less focus on high concurrency backend architectures.'],
+    suggestedAction: 'Schedule interview for Full Stack Tech Lead requisition.',
+    workHistory: [
+      {
+        id: 'wh-13',
+        title: 'Senior Full Stack Engineer',
+        company: 'Tokyo Tech Forge',
+        period: '2021 — Present (3 yrs)',
+        description: 'Led development of customer portal used by 200,000 monthly active users.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-22', action: 'Presented by TechRecruit Tokyo Agency', time: '6 days ago' }],
+  },
+  {
+    id: 'maya-angelova',
+    codeId: '#GCCX-5120',
+    name: 'Maya Angelova',
+    initials: 'MA',
+    targetRole: 'Frontend Engineer',
+    yearsExperience: 4,
+    location: 'Sofia, BG',
+    availability: 'Available in 15d',
+    source: 'Direct Application',
+    skills: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Performance Optimization'],
+    summary: 'Design-minded frontend engineer with deep mastery of React component architecture and web vitals.',
+    notes: 'Portfolio has exceptional UI craft and attention to detail.',
+    tags: ['Frontend', 'React', 'TypeScript', 'Design Systems'],
+    shortlisted: true,
+    reviewStatus: 'SHORTLISTED',
+    aiFit: 93,
+    aiSummary: 'Exceptional frontend specialist with pixel-perfect design translation and state management expertise.',
+    matchingSkills: ['React', 'TypeScript', 'Tailwind CSS'],
+    missingSkills: ['Backend Python'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-18T10:00:00Z',
+    updatedAt: '2026-09-22T16:00:00Z',
+    strengths: ['Built enterprise design system used across 12 product teams.', 'Lighthouse performance score 98+.'],
+    gaps: ['Not targeted for backend requisitions.'],
+    suggestedAction: 'Fast-track for Frontend Core Team interview.',
+    workHistory: [
+      {
+        id: 'wh-14',
+        title: 'Senior Frontend Engineer',
+        company: 'Balkan SaaS Labs',
+        period: '2022 — Present (2 yrs)',
+        description: 'Spearheaded frontend architecture overhaul transitioning from legacy SPA to modern Next.js.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-23', action: 'Shortlisted for Frontend opening', time: '1 day ago' }],
+  },
+  {
+    id: 'oliver-schmidt',
+    codeId: '#GCCX-6234',
+    name: 'Oliver Schmidt',
+    initials: 'OS',
+    targetRole: 'Backend Engineer',
+    yearsExperience: 2,
+    location: 'Munich, DE',
+    availability: 'Immediate',
+    source: 'LinkedIn',
+    skills: ['Python', 'FastAPI', 'PostgreSQL', 'Docker'],
+    summary: 'Junior backend engineer with promising open-source contributions and strong algorithmic grasp.',
+    notes: 'High potential for junior-to-mid career progression.',
+    tags: ['Python', 'FastAPI', 'Junior'],
+    shortlisted: false,
+    reviewStatus: 'NEEDS_REVIEW',
+    aiFit: 76,
+    aiSummary: 'Good foundational coding skills, needs further enterprise experience with cloud architectures.',
+    matchingSkills: ['Python', 'FastAPI', 'PostgreSQL'],
+    missingSkills: ['AWS cloud operations', 'Multi-year production tenure'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-23T01:00:00Z',
+    updatedAt: '2026-09-23T01:00:00Z',
+    strengths: ['Clean code style and solid unit test writing.'],
+    gaps: ['Limited experience scaling production databases.'],
+    suggestedAction: 'Queue for junior backend cohort review.',
+    workHistory: [
+      {
+        id: 'wh-15',
+        title: 'Junior Software Engineer',
+        company: 'Bavaria Digital Services',
+        period: '2022 — 2024 (2 yrs)',
+        description: 'Contributed to internal billing microservices and automated reporting tools.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-24', action: 'Applied via job board', time: '8 hrs ago' }],
+  },
+  {
+    id: 'ananya-iyer',
+    codeId: '#GCCX-7821',
+    name: 'Ananya Iyer',
+    initials: 'AI',
+    targetRole: 'Backend Engineer',
+    yearsExperience: 5,
+    location: 'Hyderabad, IN',
+    availability: '30d Notice',
+    source: 'Referral',
+    skills: ['Python', 'FastAPI', 'AWS', 'DynamoDB', 'Microservices', 'Kafka'],
+    summary:
+      'Seasoned backend developer specializing in asynchronous microservices and event streaming on AWS.',
+    notes: 'Referred by tech lead. Highly recommended for production stability work.',
+    tags: ['Python', 'AWS', 'DynamoDB', 'Kafka'],
+    shortlisted: true,
+    reviewStatus: 'SHORTLISTED',
+    aiFit: 94,
+    aiSummary: 'Superb async Python and AWS cloud architecture experience with production-tested event systems.',
+    matchingSkills: ['Python', 'FastAPI', 'AWS', 'Microservices'],
+    missingSkills: ['None significant'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-19T07:15:00Z',
+    updatedAt: '2026-09-22T19:00:00Z',
+    strengths: ['Reduced AWS infrastructure costs by 28% through DynamoDB on-demand optimization.', 'Deep Kafka expertise.'],
+    gaps: ['Slightly lower experience in Kubernetes operations.'],
+    suggestedAction: 'Schedule interview with Engineering Manager.',
+    workHistory: [
+      {
+        id: 'wh-16',
+        title: 'Senior Backend Engineer',
+        company: 'HyperScale Cloud India',
+        period: '2021 — Present (3 yrs)',
+        description: 'Designed real-time event pipeline processing 5,000 events/sec on AWS Lambda and DynamoDB.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-25', action: 'Candidate shortlisted by committee', time: '1 day ago' }],
+  },
+  {
+    id: 'carlos-mendez',
+    codeId: '#GCCX-2309',
+    name: 'Carlos Mendez',
+    initials: 'CM',
+    targetRole: 'DevOps / Platform',
+    yearsExperience: 7,
+    location: 'Madrid, ES',
+    availability: 'Immediate',
+    source: 'Direct Application',
+    skills: ['AWS', 'Terraform', 'Kubernetes', 'Docker', 'Python', 'CI/CD'],
+    summary: 'Cloud infrastructure architect focused on automated compliance, infrastructure as code, and observability.',
+    notes: 'Strong profile for AWS infrastructure migration.',
+    tags: ['DevOps', 'AWS', 'Terraform', 'Kubernetes'],
+    shortlisted: false,
+    reviewStatus: 'IN_REVIEW',
+    aiFit: 89,
+    aiSummary: 'Well-structured DevOps background with deep Terraform and AWS IAM security engineering experience.',
+    matchingSkills: ['AWS', 'Terraform', 'Kubernetes', 'Python'],
+    missingSkills: ['Deep FastAPI framework development'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-20T11:00:00Z',
+    updatedAt: '2026-09-22T15:00:00Z',
+    strengths: ['Standardized infrastructure across 4 AWS accounts using Terraform Cloud.', 'Implemented Datadog APM.'],
+    gaps: ['Infrastructure focus rather than pure application logic.'],
+    suggestedAction: 'Schedule 30-min technical triage call.',
+    workHistory: [
+      {
+        id: 'wh-17',
+        title: 'Lead Cloud Engineer',
+        company: 'Iberia FinTech',
+        period: '2020 — Present (4 yrs)',
+        description: 'Spearheaded automated CI/CD and disaster recovery across AWS multi-region infrastructure.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-26', action: 'Inbound application submitted', time: '3 days ago' }],
+  },
+  {
+    id: 'jordan-hayes',
+    codeId: '#GCCX-1890',
+    name: 'Jordan Hayes',
+    initials: 'JH',
+    targetRole: 'Backend Engineer',
+    yearsExperience: 4,
+    location: 'Chicago, IL',
+    availability: 'Hybrid',
+    source: 'Agency',
+    skills: ['Python', 'Flask', 'PostgreSQL', 'AWS', 'Docker'],
+    summary: 'Backend software engineer with 4 years building fintech payment endpoints and legacy Flask migrations.',
+    notes: 'Compensation expectations somewhat high compared to rubric.',
+    tags: ['Python', 'FinTech', 'PostgreSQL'],
+    shortlisted: false,
+    reviewStatus: 'REJECTED',
+    aiFit: 71,
+    aiSummary: 'Competent background but lack of async FastAPI and high-concurrency systems experience.',
+    matchingSkills: ['Python', 'PostgreSQL', 'Docker'],
+    missingSkills: ['FastAPI (uses synchronous Flask)', 'High-volume distributed architecture'],
+    aiAnalyzed: true,
+    createdAt: '2026-09-14T09:00:00Z',
+    updatedAt: '2026-09-20T14:00:00Z',
+    strengths: ['Sound relational database schema designs.'],
+    gaps: ['No async Python or event streaming experience.'],
+    suggestedAction: 'Candidate dropped due to misalignment with senior async requirements.',
+    workHistory: [
+      {
+        id: 'wh-18',
+        title: 'Software Engineer',
+        company: 'Midwest Financial Tools',
+        period: '2020 — 2024 (4 yrs)',
+        description: 'Built customer reporting portals in Flask and PostgreSQL.',
+      },
+    ],
+    notesList: [],
+    auditTrail: [{ id: 'aud-27', action: 'Application reviewed and rejected', time: '3 days ago' }],
+  }
+];
+
+// Helper generator to scale up to the realistic 56 candidates while keeping 100% data fidelity
+export function generateFullCandidatePool(): Candidate[] {
+  const list = [...INITIAL_CANDIDATES];
+  const remainingCount = 56 - list.length;
+
+  const names = [
+    'Zainab Hassan', 'Tariq Al-Mansoor', 'Dmitri Ivanov', 'Sven Lindqvist',
+    'Amara Okafor', 'Leo Takahashi', 'Isabella Rossi', 'Hassan Kabbani',
+    'Yuki Tanaka', 'Nadia Benali', 'Gabriel Santos', 'Freja Møller',
+    'Wei Zhang', 'Mei Ling', 'Kwame Mensah', 'Siddharth Rao',
+    'Beatriz Silva', 'Lucas Moreau', 'Amina Idris', 'Tomasz Nowak',
+    'Johan Bergman', 'Ingrid Olsen', 'Farhan Qureshi', 'Chiara Bianchi',
+    'Aditya Deshmukh', 'Natasha Roman', 'Julian Ward', 'Hannah Miller',
+    'Emir Kaya', 'Samira Nour', 'Devin Brooks', 'Chloe Lefebvre',
+    'Vikram Malhotra', 'Ekaterina Smirnova', 'Mateo Fernandez', 'Leila Haddad',
+    'Arjun Verma', 'Nils Larsson', 'Sofia Kovac', 'Zackary Thorne'
+  ];
+
+  const roles = [
+    'Backend Engineer',
+    'Backend Engineer',
+    'Senior Distributed Backend',
+    'Backend & Data Platform',
+    'Python API Specialist',
+    'Backend Infrastructure',
+    'Staff Core Systems',
+    'DevOps / Platform',
+    'Full Stack',
+    'Frontend Engineer'
+  ];
+
+  const sources = ['LinkedIn', 'Referral', 'Direct Application', 'Agency'];
+  const locations = [
+    'Berlin, DE • Hybrid',
+    'London, UK • Remote',
+    'Austin, TX • Hybrid',
+    'Bengaluru, IN • Onsite',
+    'Toronto, CA • Remote',
+    'Amsterdam, NL • Hybrid',
+    'Singapore • Remote',
+    'New York, NY • Hybrid',
+    'Prague, CZ • Remote',
+    'Dublin, IE • Hybrid'
+  ];
+
+  for (let i = 0; i < remainingCount; i++) {
+    const name = names[i % names.length];
+    const initials = name.split(' ').map(n => n[0]).join('');
+    const targetRole = roles[i % roles.length];
+    const exp = (i % 8) + 2;
+    const source = sources[i % sources.length];
+    const loc = locations[i % locations.length];
+    const codeNum = 2000 + i * 137;
+    const fit = 72 + ((i * 7) % 25);
+    const isShortlisted = i % 5 === 0;
+    const reviewStatus = isShortlisted
+      ? 'SHORTLISTED'
+      : i % 3 === 0
+      ? 'IN_REVIEW'
+      : i % 7 === 0
+      ? 'REJECTED'
+      : 'NEEDS_REVIEW';
+
+    list.push({
+      id: `candidate-${i + 9}`,
+      codeId: `#GCCX-${codeNum}`,
+      name: `${name}`,
+      initials,
+      targetRole,
+      yearsExperience: exp,
+      location: loc.split(' • ')[0],
+      availability: loc.split(' • ')[1] || 'Immediate',
+      source,
+      skills: ['Python 3.11', 'FastAPI', 'Docker', 'PostgreSQL', 'AWS'].slice(0, 3 + (i % 3)),
+      summary: `Experienced ${targetRole} with ${exp} years scaling production services. Proven proficiency with ${source} sourcing channel.`,
+      notes: `Indexed from ${source} for ${targetRole} pipeline.`,
+      tags: [targetRole.split(' ')[0], `${exp} yrs exp`, source],
+      shortlisted: isShortlisted,
+      reviewStatus,
+      aiFit: fit,
+      aiSummary: `Calibrated fit score of ${fit}% against GCCX technical rubric. Strong fundamental engineering track record.`,
+      matchingSkills: ['Python', 'FastAPI', 'Docker'],
+      missingSkills: exp < 4 ? ['High concurrency architecture'] : ['Advanced cloud networking'],
+      aiAnalyzed: i % 2 === 0,
+      createdAt: new Date(Date.now() - (i + 2) * 86400000).toISOString(),
+      updatedAt: new Date(Date.now() - (i + 1) * 3600000).toISOString(),
+      strengths: [
+        `Demonstrated expertise in ${targetRole} with ${exp} years applied experience.`,
+        'Solid communication and software development lifecycle discipline.'
+      ],
+      gaps: [
+        exp < 4 ? 'Limited experience in large distributed clusters.' : 'Verify specific cloud tooling breadth.'
+      ],
+      suggestedAction: isShortlisted
+        ? 'Schedule interview with Engineering Manager.'
+        : 'Conduct initial screening to confirm technical depth.',
+      workHistory: [
+        {
+          id: `wh-gen-${i}`,
+          title: `${exp > 5 ? 'Senior ' : ''}${targetRole}`,
+          company: `Tech Enterprise ${i + 1}`,
+          period: `${2024 - Math.min(exp, 4)} — Present`,
+          description: `Engineered core systems and maintained production microservices with high uptime.`
+        }
+      ],
+      notesList: [],
+      auditTrail: [
+        { id: `aud-gen-${i}`, action: `Profile indexed via ${source}`, time: `${i + 2} days ago` }
+      ]
+    });
+  }
+
+  return list;
+}
